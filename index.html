@@ -5,24 +5,30 @@
         <meta charset="utf-8">
         <link rel="stylesheet"
         href="./style.css"/>
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manufacturing+Consent&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manufacturing+Consent&display=swap" rel="stylesheet"/>
     </head>
-    <body>
-        
+    <body> 
         <!--This is so cool, I love web dev-->
        <header> <section id="header">
             <h1>17 Feathers Tattoo</h1> 
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6RKFXPdoCBRcLljsxKZUNw?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <img src="./images/companyname.png" alt="17 Feathers Tattoo logo" width="700" height="400"/>
+            <div class="company-logo"> 
+                <img src="./images/companyname.png" alt="17 Feathers Tattoo logo" width="100%" height="400"/>
+            </div>
             <nav>
                 <a href="./pages/portfolio.html">Portfolio</a>
             </nav>
-            <img src="./images/tattooimg.jpg" alt="photo of human tattooing" width="600" height="400"/>
-            <p>Stock photo is from: <a href="https://pixabay.com/photos/tattoo-art-paint-trace-human-4671963/">Pixabay</a>
-            </p>
-            <h2>Secwepemc First Nations Owned and Operated</h2>
+            <nav>
+                <a href="./pages/flash.html">Flash</a>
+            </nav>
+            <div id="pixabay-link"> 
+                <section><img class="stock-tattoo" src="./images/tattooimg.jpg" alt="photo of human tattooing" width="100%" height="600"/>
+                <p>Stock photo is from: <a href="https://pixabay.com/photos/tattoo-art-paint-trace-human-4671963/">Pixabay</a> </p> </section>
+            </div>
+            <div>
+            <h2>Secwepemc First Nations Owned and Operated</h2></div>
             <p>Taking back Indigenous art one tattoo at a time. I am a Secwepemc woman and art has always been a huge passion of mine. Connecting my culture to my art is important for me to express myself. Connecting others to their culture through my art is an even more rewarding part of my work. <strong>Working on the Snuneymuxw First Nation's Territory.</strong></p>
         </header>
         <section>
@@ -31,19 +37,24 @@
         </section>
         <img src="./images/wcfmeagle.png" alt="photo of tattoo idea west coast formline eagle" width="600" height="400"/> <img src="./images/anchor.png" alt="photo of tattoo idea anchor" width="300" height="400"/> <img src="./images/fnleaf.png" alt="photo of tattoo idea west coast formline leaf" width="400" height="400"/> <img src="./images/cowboy.png" alt="photo of tattoo idea cowboy zippo" width="300" height="400"/> <img src="./images/tradsnake.png" alt="photo of tattoo idea traditional style snake" width="200" height="400"/>
         <section>
-               <span><h2>Styles</h2>
-                <ul>
+            <div id="unordered-list">
+                    <span><h2>Styles</h2>
+                    <ul>
                     <li>Bold, black linework</li>
                     <li>West Coast formline</li>
                     <li>Colour</li>
                     <li>Traditional</li>
                     <li>Wildlife</li>
                     <li>Cartoon/Comic</li>
-                </ul></span>
+                    </ul></span>
+            </div>
+            <div id="tattoo-imgs">
                 <img src="./images/wcwhale.png" alt="example of west coast formline whale tattoo" width="300" height="400"/> <img src="./images/skull.png" alt="example of bold black linework skull tattoo" width="300" height="400"/>
                 <img src="./images/mechanic.png" alt="example of black linework mechanic tattoo" width="300" height="400"/> <img src="./images/fish.png" alt="example of wildlife tattoo fish" width="300" height="400"/>
+            </div>
         </section>
-        <span><section>
+        <div id="ordered-list">
+            <section> <span>
                 <h2>Booking Policy</h2>
                 <ol>
                     <li>Consult required</li>
@@ -52,16 +63,21 @@
                     <li>Rescheduling allowed once</li>
                     <li><em>Must be 19+ to book</em></li>
                     <li>Signed Consent waiver required before day of tattoo</li>
-                </ol>
-        </section></span>
-        <section>
-               <a href="https://www.instagram.com/17feathers.tattoo/" target="_blank">Follow me on Instagram</a>
-        </section>
-        <img src="./images/name.png" alt="creator name in script" width="600" height="300"/>
+                </ol> </section> </span>
+        </div>
+        <div id="instagram">
+            <section>
+               <a href="https://www.instagram.com/17feathers.tattoo/" target="_blank">Follow me on Instagram</a> 
+            </section>
+        </div>
+        <div class="name">
+            <img src="./images/name.png" alt="creator name in script" width="600" height="300"/> 
+        </div>
         <nav>
             <a href="#header">Top of Page</a>
         </nav>
-        <footer> Website created by <em>Jeannie Oakland</em>. Photos/media belong to me unless otherwise cited. </footer>
+        <footer> Website created by <em>Jeannie Oakland</em>. Photos/media belong to me unless otherwise cited.
+            <p style="font-size: 100px"> &#128151; As an artist thank you for your support!
+        </footer>
     </body>
-    
 </html>
